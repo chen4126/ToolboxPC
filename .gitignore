@@ -1,0 +1,17 @@
+# 编译产物
+/build/classes/
+/build/input/
+/build/*.jar
+/out/
+/dist/
+
+# 第三方依赖（按 README 自行下载 flatlaf.jar）
+/lib/*.jar
+
+# 测试与出图的中间产物
+/shot/*.class
+/shot/*.txt
+*.log
+
+# 保留图标资源
+!/build/app.ico
